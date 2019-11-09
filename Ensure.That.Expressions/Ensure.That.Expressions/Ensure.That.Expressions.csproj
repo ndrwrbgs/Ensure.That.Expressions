@@ -9,11 +9,20 @@
     <RepositoryUrl>https://github.com/ndrwrbgs/Ensure.That.Expressions</RepositoryUrl>
     <PackageTags>ensure-that validation</PackageTags>
     <Description>Expression extensions for Ensure.That</Description>
+    <PackageLicenseExpression></PackageLicenseExpression>
+    <PackageLicenseFile>LICENSE</PackageLicenseFile>
   </PropertyGroup>
 
   <ItemGroup>
     <PackageReference Include="Ensure.That" Version="8.1.1" />
     <PackageReference Include="JetBrains.Annotations" Version="2019.1.3" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="..\..\LICENSE">
+      <Pack>True</Pack>
+      <PackagePath></PackagePath>
+    </None>
   </ItemGroup>
 
 </Project>
