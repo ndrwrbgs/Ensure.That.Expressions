@@ -1,0 +1,19 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFrameworks>netstandard2.0;net45</TargetFrameworks>
+    <Version>0.1.0</Version>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <Copyright>Copyright 2019</Copyright>
+    <PackageProjectUrl>https://github.com/ndrwrbgs/Ensure.That.Expressions</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/ndrwrbgs/Ensure.That.Expressions</RepositoryUrl>
+    <PackageTags>ensure-that validation</PackageTags>
+    <Description>Expression extensions for Ensure.That</Description>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Ensure.That" Version="8.1.1" />
+    <PackageReference Include="JetBrains.Annotations" Version="2019.1.3" />
+  </ItemGroup>
+
+</Project>
